@@ -12,7 +12,7 @@
 <a href="AddUser">注册</a>
 <table border="1px">
 	<tr>
-		<th>编号</th>
+		<th>编号1111</th>
 		<th>用户名</th>
 		<th>密码</th>
 		<th>所在班级</th>
