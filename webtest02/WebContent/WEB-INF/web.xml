@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>webtest02</display-name>
+  <welcome-file-list>
+  	<welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+<!-- 测试传值 -->
+<servlet>
+	<servlet-name>IndexServlet</servlet-name>
+	<servlet-class>com.soft.action.IndexServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>IndexServlet</servlet-name>
+	<url-pattern>/Index</url-pattern>
+</servlet-mapping>
+
+<!--显示所有用户信息 -->
+<servlet>
+	<servlet-name>ShowUserServlet</servlet-name>
+	<servlet-class>com.soft.action.ShowUserServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ShowUserServlet</servlet-name>
+	<url-pattern>/ShowUser</url-pattern>
+</servlet-mapping>
+
+<!-- 删除用户 -->
+<servlet>
+	<servlet-name>DelUserServlet</servlet-name>
+	<servlet-class>com.soft.action.DelUserServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>DelUserServlet</servlet-name>
+	<url-pattern>/DelUser</url-pattern>
+</servlet-mapping>
+
+<!-- 跳转注册页 -->
+<servlet>
+	<servlet-name>AddUserServlet</servlet-name>
+	<servlet-class>com.soft.action.AddUserServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>AddUserServlet</servlet-name>
+	<url-pattern>/AddUser</url-pattern>
+</servlet-mapping>
+
+<!-- 注册用户 -->
+<servlet>
+	<servlet-name>DoAddUserServlet</servlet-name>
+	<servlet-class>com.soft.action.DoAddUserServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>DoAddUserServlet</servlet-name>
+	<url-pattern>/DoAddUser</url-pattern>
+</servlet-mapping>
+
+<!-- 添加用户地址跳转页 -->
+<servlet>
+	<servlet-name>AddUserAddrServlet</servlet-name>
+	<servlet-class>com.soft.action.AddUserAddrServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>AddUserAddrServlet</servlet-name>
+	<url-pattern>/AddUserAddr</url-pattern>
+</servlet-mapping>
+
+<!-- 编辑用户信息跳转页面 -->
+<servlet>
+	<servlet-name>UpdateUserServlet</servlet-name>
+	<servlet-class>com.soft.action.UpdateUserServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>UpdateUserServlet</servlet-name>
+	<url-pattern>/UpdateUser</url-pattern>
+</servlet-mapping>
+
+<!-- 编辑用户信息 -->
+<servlet>
+	<servlet-name>DoUpdateUserServlet</servlet-name>
+	<servlet-class>com.soft.action.DoUpdateUserServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>DoUpdateUserServlet</servlet-name>
+	<url-pattern>/DoUpdateUser</url-pattern>
+</servlet-mapping>
+
+<!-- ajax改变省 -->
+<servlet>
+	<servlet-name>AjaxChangeprovinceServlet</servlet-name>
+	<servlet-class>com.soft.action.AjaxChangeprovinceServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>AjaxChangeprovinceServlet</servlet-name>
+	<url-pattern>/AjaxChangeprovince</url-pattern>
+</servlet-mapping>
+
+<!-- 添加省市区 -->
+<servlet>
+	<servlet-name>DoAddUserAddrServlet</servlet-name>
+	<servlet-class>com.soft.action.DoAddUserAddrServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>DoAddUserAddrServlet</servlet-name>
+	<url-pattern>/DoAddUserAddr</url-pattern>
+</servlet-mapping>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</web-app>
