@@ -18,7 +18,7 @@
 	<input type="hidden" name="id" value="<%=user.getId() %>" />
 	<table>
 		<tr>
-			<td>用户名:</td>
+			<td>用户名222:</td>
 			<td>${user.username}</td>
 		</tr>
 		<tr>
